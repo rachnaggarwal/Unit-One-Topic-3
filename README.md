@@ -74,3 +74,51 @@ finally
 //it always exceutes
 
 }
+### Static
+The ststic variable gets memory only once in class area at the time of class loading. It makes the program memory efficient
+For example: - static String company="CSS Corp";
+A static method belongs to the class rather than object of a class. It does not require the need of creating an instance of a class.
+**Restrictions For Static Method**
+- The ststic method cannot use non static data member ot call non-static method directly(need object).
+- this and super cannot be used in static context.
+
+### Final
+It is usd to restrict the usage. The final keyword can be used with variable, method and class.
+- You cannot subclass a final class.
+- You cannot oveeride a final method.
+- A final variable is a constant.
+
+### Enum
+An enum is a data type which contains fixed set of constants. Enums can be thought of as classes that have fixed set of constants.
+**Benefits of Enum**
+-enum improves type safety
+- enum can be easily used in switch
+- enum can be traversed
+- enum can have fields, constructors and methods.
+- enum may implement many interfaces but cannot extend any class because it internally extends Enum class.
+
+Example: -
+
+class Example
+
+{
+
+public enum Season
+
+{Winter, Spring, Summer}
+
+}
+
+public static void main (String[] args)
+
+{
+
+for(Season s:Season.values())
+
+System.out.println(s);
+
+}
+
+}
+
+**Value() Method** The value method returns an array containing all the values of enum
