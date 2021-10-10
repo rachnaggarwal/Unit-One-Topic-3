@@ -1,5 +1,5 @@
 # Unit-One-Topic-3
-####This repository includes my learning on topics Exception Handling and Collections in Java. Some Basic codes performed on Eclipse are attached in the code section.
+###This repository includes my learning on topics Exception Handling and Collections in Java. Some Basic codes performed on Eclipse are attached in the code section.
 
 ### What is Exception?
 An exception is an event, which occurs during the execution of program (Run time), that disrupts the normal flow of the program's instructions.
@@ -44,18 +44,33 @@ Exception handler if the statements in the try block throws an exception
 Optional block. It always executes when the try blocks exits. Finally block is executed even if an unexpected exception occurs.
 
 try
+
 {
+
 //statements
+
 }
+
 catch(ExceptionType1 e1)
+
 {
+
 //catch block
+
 }
+
 catch(ExceptionType2 e2)
+
 {
+
 //catch block
+
 }
+
 finally
+
 {
+
 //it always exceutes
+
 }
