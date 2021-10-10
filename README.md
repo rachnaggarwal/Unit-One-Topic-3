@@ -1,5 +1,5 @@
 # Unit-One-Topic-3
-###This repository includes my learning on topics Exception Handling in Java. Some Basic codes performed on Eclipse are attached in the code section.
+This repository includes my learning on topics Exception Handling in Java. Some Basic codes performed on Eclipse are attached in the code section.
 
 ### What is Exception?
 An exception is an event, which occurs during the execution of program (Run time), that disrupts the normal flow of the program's instructions.
